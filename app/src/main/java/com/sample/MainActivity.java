@@ -2,7 +2,6 @@ package com.sample;
 
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
@@ -20,7 +19,7 @@ import com.downloader.Progress;
 import com.downloader.Status;
 import com.sample.utils.Utils;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends androidx.appcompat.app.AppCompatActivity {
 
     private static String dirPath;
 

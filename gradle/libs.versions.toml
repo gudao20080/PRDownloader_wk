@@ -1,0 +1,125 @@
+[versions]
+accompanistInsets = "0.28.0"
+accompanistWebview = "0.36.0"
+activityCompose = "1.9.2"
+#androidxConstraintlayoutCompose = "1.1.0-alpha13"
+ffmpegKitFullGpl = "6.0"
+firebaseFirestoreKtxVersion = "25.1.1"
+fuel = "3.0.0-alpha03"
+kotlinxCoroutinesCore = "1.9.0"
+material3Adaptive = "1.1.0-alpha02"
+coil = "2.6.0"
+composeShimmer = "1.3.0"
+constraintlayoutCompose = "1.1.0"
+espressoCore = "3.5.1"
+firebaseBom = "33.1.1"
+gsyvideoplayer = "v8.6.0-release-jitpack"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+#kotlin = "1.9.24"
+kotlin = "2.0.0"
+androidxCore = "1.13.1"
+androidGradlePlugin = "8.4.1"
+kotlinxSerializationJson = "1.7.0-RC"
+#kotlinxSerializationJson = "2.0.0"
+mmkv = "1.3.5"
+kittinunfResult = "5.6.0"
+playServicesAds = "23.2.0"
+roomVersion = "2.6.1"
+swipeLikeIos = "1.0.1"
+toaster = "12.6"
+utilcodex = "1.31.1"
+xxpermissions = "18.63"
+youtubedlAndroidLibrary = "0.17.0"
+lifecycleRuntimeKtx = "2.8.6"
+appcompat = "1.7.0"
+navigationVersion = "2.8.2"
+workRuntimeKtx = "2.9.1"
+material = "1.12.0"
+composeBom = "2024.09.03"
+firebaseFirestoreKtx = "25.1.0"
+activity = "1.9.2"
+constraintlayout = "2.1.4"
+material3AdaptiveNavigationSuiteAndroid = "1.3.0"
+runner = "1.0.2"
+espressoCoreVersion = "3.0.2"
+appcompatV7 = "28.0.0"
+
+[libraries]
+accompanist-insets = { module = "com.google.accompanist:accompanist-insets", version.ref = "accompanistInsets" }
+accompanist-webview = { module = "com.google.accompanist:accompanist-webview", version.ref = "accompanistWebview" }
+androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "activityCompose" }
+androidx-adaptive = { module = "androidx.compose.material3.adaptive:adaptive", version.ref = "material3Adaptive" }
+androidx-adaptive-layout = { module = "androidx.compose.material3.adaptive:adaptive-layout", version.ref = "material3Adaptive" }
+androidx-adaptive-navigation = { module = "androidx.compose.material3.adaptive:adaptive-navigation", version.ref = "material3Adaptive" }
+androidx-constraintlayout-compose = { module = "androidx.constraintlayout:constraintlayout-compose", version.ref = "constraintlayoutCompose" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "androidxCore" }
+androidx-espresso-core = { module = "androidx.test.espresso:espresso-core", version.ref = "espressoCore" }
+androidx-junit = { module = "androidx.test.ext:junit", version.ref = "junitVersion" }
+androidx-lifecycle-runtime-ktx = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-material3 = { module = "androidx.compose.material3:material3" }
+androidx-material3-windowSizeClass = { module = "androidx.compose.material3:material3-window-size-class" }
+androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "roomVersion" }
+coil-video = { module = "io.coil-kt:coil-video", version.ref = "coil" }
+compose-shimmer = { module = "com.valentinilk.shimmer:compose-shimmer", version.ref = "composeShimmer" }
+ffmpeg-kit-full-gpl = { module = "com.arthenica:ffmpeg-kit-full-gpl", version.ref = "ffmpegKitFullGpl" }
+firebase-analytics-ktx = { module = "com.google.firebase:firebase-analytics-ktx" }
+firebase-auth-ktx = { module = "com.google.firebase:firebase-auth-ktx" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+firebase-config-ktx = { module = "com.google.firebase:firebase-config-ktx" }
+firebase-crashlytics = { module = "com.google.firebase:firebase-crashlytics" }
+firebase-storage-ktx = { module = "com.google.firebase:firebase-storage-ktx" }
+fuel = { module = "com.github.kittinunf.fuel:fuel", version.ref = "fuel" }
+gsyvideoplayer-aliplay = { module = "com.github.CarGuo.GSYVideoPlayer:GSYVideoPlayer-aliplay", version.ref = "gsyvideoplayer" }
+gsyvideoplayer-arm64 = { module = "com.github.CarGuo.GSYVideoPlayer:gsyVideoPlayer-arm64", version.ref = "gsyvideoplayer" }
+gsyvideoplayer-ex_so = { module = "com.github.CarGuo.GSYVideoPlayer:gsyVideoPlayer-ex_so", version.ref = "gsyvideoplayer" }
+gsyvideoplayer-exo2 = { module = "com.github.CarGuo.GSYVideoPlayer:GSYVideoPlayer-exo2", version.ref = "gsyvideoplayer" }
+gsyvideoplayer-java = { module = "com.github.CarGuo.GSYVideoPlayer:gsyVideoPlayer-java", version.ref = "gsyvideoplayer" }
+kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinxCoroutinesCore" }
+mmkv = { module = "com.tencent:mmkv", version.ref = "mmkv" }
+navigation-ui-ktx = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "navigationVersion" }
+androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "roomVersion" }
+androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "roomVersion" }
+androidx-runtime-livedata = { module = "androidx.compose.runtime:runtime-livedata" }
+androidx-ui = { module = "androidx.compose.ui:ui" }
+androidx-ui-graphics = { module = "androidx.compose.ui:ui-graphics" }
+androidx-ui-test-junit4 = { module = "androidx.compose.ui:ui-test-junit4" }
+androidx-ui-test-manifest = { module = "androidx.compose.ui:ui-test-manifest" }
+androidx-ui-tooling = { module = "androidx.compose.ui:ui-tooling" }
+androidx-ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview" }
+
+coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coil" }
+kittinunf-result = { module = "com.github.kittinunf.result:result-jvm", version.ref = "kittinunfResult" }
+play-services-ads = { module = "com.google.android.gms:play-services-ads", version.ref = "playServicesAds" }
+swipe-like-ios = { module = "com.github.linversion.swipe-like-ios:swipe-like-ios", version.ref = "swipeLikeIos" }
+toaster = { module = "com.github.getActivity:Toaster", version.ref = "toaster" }
+utilcodex = { module = "com.blankj:utilcodex", version.ref = "utilcodex" }
+xxpermissions = { module = "com.github.getActivity:XXPermissions", version.ref = "xxpermissions" }
+youtubedl-aria2c = { module = "io.github.junkfood02.youtubedl-android:aria2c", version.ref = "youtubedlAndroidLibrary" }
+youtubedl-library = { module = "io.github.junkfood02.youtubedl-android:library", version.ref = "youtubedlAndroidLibrary" }
+youtubedl-ffmpeg = { module = "io.github.junkfood02.youtubedl-android:ffmpeg", version.ref = "youtubedlAndroidLibrary" }
+junit = { module = "junit:junit", version.ref = "junit" }
+kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinxSerializationJson" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigationVersion" }
+androidx-work-runtime-ktx = { group = "androidx.work", name = "work-runtime-ktx", version.ref = "workRuntimeKtx" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+firebase-firestore-ktx = { group = "com.google.firebase", name = "firebase-firestore-ktx", version.ref = "firebaseFirestoreKtx" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+androidx-material3-adaptive-navigation-suite-android = { group = "androidx.compose.material3", name = "material3-adaptive-navigation-suite-android", version.ref = "material3AdaptiveNavigationSuiteAndroid" }
+runner = { group = "com.android.support.test", name = "runner", version.ref = "runner" }
+espresso-core = { group = "com.android.support.test.espresso", name = "espresso-core", version.ref = "espressoCoreVersion" }
+appcompat-v7 = { group = "com.android.support", name = "appcompat-v7", version.ref = "appcompatV7" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "androidGradlePlugin" }
+jb-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+jb-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+android-library = { id = "com.android.library", version.ref = "androidGradlePlugin" }
+
+[bundles]
+androidx-compose = ["androidx-ui", "androidx-ui-graphics", "androidx-ui-tooling-preview", "androidx-material3", "androidx-material3-windowSizeClass"]
+compose-ui-debug = ["androidx-ui-tooling", "androidx-ui-test-manifest"]
